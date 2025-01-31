@@ -112,6 +112,9 @@ return packer.startup(function(use)
 	-- scroll
 	use("karb94/neoscroll.nvim")
 
+	-- oil
+	use("stevearc/oil.nvim")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end

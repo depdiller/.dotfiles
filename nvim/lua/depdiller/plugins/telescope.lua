@@ -42,7 +42,7 @@ telescope.setup({
 			grouped = false,
 			files = true,
 			add_dirs = true,
-			depth = 4,
+			depth = 2,
 			auto_depth = true,
 			select_buffer = false,
 			hidden = { file_browser = true, folder_browser = true },
