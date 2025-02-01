@@ -1,0 +1,9 @@
+18:15:45.469717	Starting YCP	{"os": "darwin", "arch": "arm64", "version": "0.3.0-2024-11-20T09-54-09Z+965439add", "x-trace-id": "2baf46dc-c01b-410c-9ad7-594277bb8635", "current-time": "2025-01-29 18:15:45.469702 +0300 MSK"}
+iam
+infra
+iot
+islednica
+init
+:4
+Completion ended with directive: ShellCompDirectiveNoFileComp
+18:15:45.509929	Command execution succeeded. Handling results.

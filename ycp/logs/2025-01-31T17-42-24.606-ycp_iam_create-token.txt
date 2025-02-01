@@ -1,0 +1,21 @@
+17:42:24.636185	Starting YCP	{"os": "darwin", "arch": "arm64", "version": "0.3.0-2024-11-20T09-54-09Z+965439add", "x-trace-id": "64be2670-6c68-4951-b0a2-f1bd52bdd298", "current-time": "2025-01-31 17:42:24.636167 +0300 MSK"}
+
+You are going to be authenticated via federation-id 'yc.yandex-team.federation'.
+Your federation authentication web site will be opened.
+After your successful authentication, you will be redirected to cloud console'.
+
+Press 'enter' to continue...17:42:24.682339	Update check started.
+17:42:24.741455	Update check finished. Current version is outdated.
+17:42:25.764409	querying for federation-id token
+17:42:25.764687	https://auth.yandex.cloud
+17:42:25.765033	opening browser, server address: 127.0.0.1:58688
+17:42:25.867420	waiting for code
+17:42:27.985998	token server handler called
+17:42:27.986217	waiting for code done
+17:42:27.986376	code server shutdown
+17:42:27.986575	waiting for token
+17:42:28.479072	successfully obtained token for federation-id
+t1.9euelZqbks-bys3JnZ7OlJ6ZnJqOjO3rnpWaip3NmpCYx5bNjIyRxpHHm87l8_crPQxD-e8Gal0S_t3z92trCUP57wZqXRL-1dH164ac0ZCeiouX0Y-Nlomei5rSjJuU7fmQj5qRlpvt8ZCZmZOWkZqgnpycmoyMzef1656Vmp3GnZ6Xx4uSk4qMl8mMlsqU7_zF656Vmp3GnZ6Xx4uSk4qMl8mMlsqUveuelZrGzc-QjsaZk47ImIzNjcfInLXrhpzRlp6S0ZCPmpGWm9KMmo2Jmo0.nOPA7jgT9aFQd6EnkUj2e4iQW2ovj0ig-qftLq6zFA2FEq7HrkehprpR6ewGKCpSrrnXrLoa10bsPO2-jEWWAA
+There is a new ycp version '0.3.0-2025-01-30T18-18-48Z+a78f44260de' available. Current version: '0.3.0-2024-11-20T09-54-09Z+965439add'.
+But ycp seems to be installed as a standalone binary, thus self-update is not available.
+17:42:28.479770	Command execution succeeded. Handling results.

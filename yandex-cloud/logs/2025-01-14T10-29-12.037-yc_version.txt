@@ -1,0 +1,7 @@
+10:29:12.039761	Starting CLI	{"version": "0.136.0", "os": "darwin", "arch": "arm64", "current-time": "2025-01-14 10:29:12.039733 +0300 MSK"}
+10:29:12.040451	Loading config file	{"path": "/Users/depdiller/.config/yandex-cloud/config.yaml"}
+10:29:12.041460	Selected profile	{"profile": "kz"}
+10:29:12.041483	Updating values from flags
+out> Yandex Cloud CLI 0.136.0 darwin/arm64
+10:29:12.059031	Short command, don't wait for check result.
+10:29:12.059050	Command execution finished

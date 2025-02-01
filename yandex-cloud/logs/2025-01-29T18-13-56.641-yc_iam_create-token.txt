@@ -1,0 +1,27 @@
+18:13:56.646290	Starting CLI	{"version": "0.142.0-0.dev+internal.6348508", "os": "darwin", "arch": "arm64", "current-time": "2025-01-29 18:13:56.646258 +0300 MSK"}
+18:13:56.646698	Loading config file	{"path": "/Users/depdiller/.config/yandex-cloud/config.yaml"}
+18:13:56.647431	Selected profile	{"profile": "kz"}
+18:13:56.647453	Updating values from flags
+18:13:56.683023	Failed to read init cache '/Users/depdiller/.config/yandex-cloud/.authmethod': open /Users/depdiller/.config/yandex-cloud/.authmethod: no such file or directory
+18:13:56.683317	Trying to read init cache from legacy path '/Users/depdiller/.config/yandex-cloud/credentials/.authmethod'
+18:13:56.683330	Failed to read init cache '/Users/depdiller/.config/yandex-cloud/credentials/.authmethod': open /Users/depdiller/.config/yandex-cloud/credentials/.authmethod: no such file or directory
+err> 
+err> You are going to be authenticated via federation-id 'yc.yandex-team.federation'.
+err> Your federation authentication web site will be opened.
+err> After your successful authentication, you will be redirected to cloud console'.
+err> 
+err> Press 'enter' to continue...18:13:56.683550	Update cache read	{"cache": {"check-timestamp":"2025-01-28T23:30:16Z"}}
+18:13:56.683953	Update check cached.	{"last_update_check": "2025-01-28 23:30:16 +0000 UTC"}
+18:13:57.845101	querying for federation-id token
+18:13:57.845294	https://kz.auth.yandex.cloud
+18:13:57.847300	opening browser, server address: 127.0.0.1:59441
+18:13:57.948298	waiting for code
+18:13:59.813602	token server handler called
+18:13:59.813864	waiting for code done
+18:13:59.813896	code server shutdown
+18:13:59.814395	waiting for token
+18:14:00.306785	successfully obtained token for federation-id
+18:14:00.306953	folder-id is not specified. Try getting it in the metadata service
+18:14:00.361536	Instance Metadata service is not available. Seems that we are not on Compute Instance, so just return empty folder-id.	{"error": "dial tcp 169.254.169.254:80: i/o timeout"}
+out> t1.9eudzZ3Ik5GKlZqXlYqMy8bNzs2Vne3rnc2di8uMjZWakZ7KmJ6PyoyWjcbl8_dHdBZD-e8jEW9e_t3z9wcjFEP57yMRb17-1dL17Iac0ZCeiouX0Y-KnZOWnNKMm5Tt-ZCPmpGWm-3xkJmZk5aRmqCenJyajIzN5_Xrnc2dzM-ex8vGj4_Ij5uQyZ2dmMjv_MXrnc2dzM-ex8vGj4_Ij5uQyZ2dmMi9653NnZWYl5mRz5yOz5LKjJCJzoyTteuGnNGWnpLRkI-akZab0oyajYmajQ.UvK-wqPG07tx43t0U2H21HQYxqUug0cMy6idCjlk3sX0afE8HUD0RIxe0y-vuX2CP_v5nR85Sgz_QHUJiFzRBQ
+18:14:00.361899	Command execution finished

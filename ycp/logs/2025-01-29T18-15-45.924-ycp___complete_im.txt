@@ -1,0 +1,4 @@
+18:15:45.934194	Starting YCP	{"os": "darwin", "arch": "arm64", "version": "0.3.0-2024-11-20T09-54-09Z+965439add", "x-trace-id": "971578e5-08be-4bd9-b035-7121b8e9ca5e", "current-time": "2025-01-29 18:15:45.934189 +0300 MSK"}
+:4
+Completion ended with directive: ShellCompDirectiveNoFileComp
+18:15:45.967799	Command execution succeeded. Handling results.

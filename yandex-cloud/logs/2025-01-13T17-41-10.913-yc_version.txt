@@ -1,0 +1,10 @@
+17:41:10.916324	Starting CLI	{"version": "0.142.0-0.dev+internal.685ce3e", "os": "darwin", "arch": "arm64", "current-time": "2025-01-13 17:41:10.9163 +0300 MSK"}
+17:41:10.916512	Loading config file	{"path": "/Users/depdiller/.config/yandex-cloud/config.yaml"}
+17:41:10.916879	Selected profile	{"profile": "kz"}
+17:41:10.916913	Updating values from flags
+out> Yandex Cloud CLI 0.142.0-0.dev+internal.685ce3e darwin/arm64
+out> Git Branch: trunk
+out> Git Revision: 685ce3ebab449e596ec1743768e5a7403a87cb9c
+out> Build Date: "2025-01-13T14:41:04Z"
+17:41:10.928871	Short command, don't wait for check result.
+17:41:10.928942	Command execution finished

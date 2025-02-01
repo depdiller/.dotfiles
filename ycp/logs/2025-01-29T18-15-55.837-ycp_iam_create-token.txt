@@ -1,0 +1,22 @@
+18:15:55.849992	Starting YCP	{"os": "darwin", "arch": "arm64", "version": "0.3.0-2024-11-20T09-54-09Z+965439add", "x-trace-id": "c2a8bdce-8821-4f76-8441-6329cedcf834", "current-time": "2025-01-29 18:15:55.849984 +0300 MSK"}
+18:15:55.877762	Unable to open update-check cache file	{"error": "open /Users/depdiller/.config/ycp/.last_update_check.json: no such file or directory"}
+18:15:55.877846	Update check started.
+
+You are going to be authenticated via federation-id 'yc.yandex-team.federation'.
+Your federation authentication web site will be opened.
+After your successful authentication, you will be redirected to cloud console'.
+
+Press 'enter' to continue...18:15:55.964934	Update check finished. Current version is outdated.
+18:15:56.718595	querying for federation-id token
+18:15:56.719704	https://auth.yandex.cloud
+18:15:56.721875	opening browser, server address: 127.0.0.1:59494
+18:15:56.814156	waiting for code
+18:17:18.127160	token server handler called
+18:17:18.127473	waiting for code done
+18:17:18.127573	code server shutdown
+18:17:18.127740	waiting for token
+18:17:18.353732	successfully obtained token for federation-id
+t1.9euelZqRzpXNx52ez5SVxo2ajseRie3rnpWaip3NmpCYx5bNjIyRxpHHm87l8_cBcxZD-e9jDGM8_t3z90EhFEP572MMYzz-1dH164ac0ZCeiouX0Y-Nlomei5rSjJuU7fmQj5qRlpvt8ZCZmZOWkZqgnpycmoyMzef1656VmpXLlYzJy82YjoqQlpmXy5GX7_zF656VmpXLlYzJy82YjoqQlpmXy5GXveuelZqUkM3GlMjJipHIks2XlcvKk7XrhpzRlp6S0ZCPmpGWm9KMmo2Jmo0.ajo2n9SmDb6ssM_rQ2Ztru53YqRgQ2P2n2rjzZc6-bWm5PBGnBLYCkvJlQIaxxInr4S9byhoM8Exk_KZG3qfCg
+There is a new ycp version '0.3.0-2025-01-28T08-49-17Z+86fae30178d' available. Current version: '0.3.0-2024-11-20T09-54-09Z+965439add'.
+But ycp seems to be installed as a standalone binary, thus self-update is not available.
+18:17:18.353944	Command execution succeeded. Handling results.

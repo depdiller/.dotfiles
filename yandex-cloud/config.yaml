@@ -1,0 +1,14 @@
+current: kz
+profiles:
+  kz:
+    federation-id: yc.yandex-team.federation
+    endpoint: api.yandexcloud.kz:443
+    federation-endpoint: kz.auth.yandex.cloud
+    compute-default-zone: kz1-a
+  preprod:
+    federation-id: yc.yandex-team.federation
+    endpoint: api.cloud-preprod.yandex.net:443
+    federation-endpoint: console-preprod.cloud.yandex.ru
+  prod:
+    federation-id: yc.yandex-team.federation
+    endpoint: api.cloud.yandex.net:443

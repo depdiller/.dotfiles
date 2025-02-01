@@ -1,0 +1,174 @@
+18:36:59.393643	Starting CLI	{"version": "0.136.0", "os": "darwin", "arch": "arm64", "current-time": "2025-01-13 18:36:59.393634 +0300 MSK"}
+18:36:59.393728	Loading config file	{"path": "/Users/depdiller/.config/yandex-cloud/config.yaml"}
+18:36:59.393821	Selected profile	{"profile": "kz"}
+18:36:59.393847	Updating values from flags
+18:36:59.402857	unable to read update-check cache file	{"error": "open /Users/depdiller/.config/yandex-cloud/.last_update_check.json: no such file or directory"}
+18:36:59.402906	Update check started.
+18:36:59.402744	folder-id is not specified. Try getting it in the metadata service
+18:36:59.453186	Instance Metadata service is not available. Seems that we are not on Compute Instance, so just return empty folder-id.	{"error": "dial tcp 169.254.169.254:80: i/o timeout"}
+18:36:59.453292	grpc	[core][Channel #1]Channel created
+18:36:59.453589	grpc	[core][Channel #1]original dial target is: "api.yandexcloud.kz:443"
+18:36:59.453609	grpc	[core][Channel #1]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"api.yandexcloud.kz", Opaque:"443", User:(*url.Userinfo)(nil), Host:"", Path:"", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}
+18:36:59.453634	grpc	[core][Channel #1]fallback to scheme "passthrough"
+18:36:59.453644	grpc	[core][Channel #1]parsed dial target is: passthrough:///api.yandexcloud.kz:443
+18:36:59.453651	grpc	[core][Channel #1]Channel authority set to "api.yandexcloud.kz:443"
+18:36:59.454215	grpc	[core][Channel #1]Resolver state updated: {
+  "Addresses": [
+    {
+      "Addr": "api.yandexcloud.kz:443",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Metadata": null
+    }
+  ],
+  "Endpoints": [
+    {
+      "Addresses": [
+        {
+          "Addr": "api.yandexcloud.kz:443",
+          "ServerName": "",
+          "Attributes": null,
+          "BalancerAttributes": null,
+          "Metadata": null
+        }
+      ],
+      "Attributes": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+} (resolver returned new addresses)
+18:36:59.454235	grpc	[core][Channel #1]Channel switches to new LB policy "pick_first"
+18:36:59.454320	grpc	[core][pick-first-lb 0x14001b81b30] Received new config {
+  "shuffleAddressList": false
+}, resolver state {
+  "Addresses": [
+    {
+      "Addr": "api.yandexcloud.kz:443",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Metadata": null
+    }
+  ],
+  "Endpoints": [
+    {
+      "Addresses": [
+        {
+          "Addr": "api.yandexcloud.kz:443",
+          "ServerName": "",
+          "Attributes": null,
+          "BalancerAttributes": null,
+          "Metadata": null
+        }
+      ],
+      "Attributes": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+}
+18:36:59.454334	grpc	[core][Channel #1 SubChannel #2]Subchannel created
+18:36:59.454344	grpc	[core][Channel #1]Channel Connectivity change to CONNECTING
+18:36:59.454372	grpc	[core][Channel #1]Channel exiting idle mode
+18:36:59.454385	grpc	[core][Channel #1 SubChannel #2]Subchannel Connectivity change to CONNECTING
+18:36:59.454405	grpc	[core][Channel #1 SubChannel #2]Subchannel picks a new address "api.yandexcloud.kz:443" to connect
+18:36:59.454433	grpc	[core][pick-first-lb 0x14001b81b30] Received SubConn state update: 0x14001b81bc0, {ConnectivityState:CONNECTING ConnectionError:<nil>}
+18:36:59.454676	grpc	Dialing api.yandexcloud.kz:443 with timeout 19.999691333s
+18:36:59.470047	Update check finished. Current version is outdated.
+18:36:59.537767	grpc	Dial api.yandexcloud.kz:443 successfully connected to: [2a07:aa40:2f::1e]:443
+18:36:59.815152	grpc	[core][Channel #1 SubChannel #2]Subchannel Connectivity change to READY
+18:36:59.815530	grpc	[core][pick-first-lb 0x14001b81b30] Received SubConn state update: 0x14001b81bc0, {ConnectivityState:READY ConnectionError:<nil>}
+18:36:59.815601	grpc	[core][Channel #1]Channel Connectivity change to READY
+18:36:59.816022	Request  ApiEndpointService/List	{"request": {"method":"/yandex.cloud.endpoint.ApiEndpointService/List","header":{"idempotency-key":["a0e2af81-1881-49f2-b828-6a61321e6874"],"x-client-request-id":["e2f270f4-7b4f-4cb8-9dac-bf8be85dce87"],"x-client-trace-id":["bb1d4050-2cf3-4d26-bf5f-fb8b946c7bff"]},"payload":{"page_size":"100"}}}
+18:36:59.924723	Response ApiEndpointService/List	{"response": {"method":"/yandex.cloud.endpoint.ApiEndpointService/List","header":{"content-type":["application/grpc"],"date":["Mon, 13 Jan 2025 15:36:59 GMT"],"server":["ycalb"],"x-request-id":["5f8ecadf-7df6-4f89-824d-85c80eae6c08"],"x-server-trace-id":["6788b188dd8a3076:6d24886cca06892b:6788b188dd8a3076:1"]},"payload":{"endpoints":[{"id":"alb","address":"alb.api.yandexcloud.kz:443"},{"id":"application-load-balancer","address":"alb.api.yandexcloud.kz:443"},{"id":"apploadbalancer","address":"alb.api.yandexcloud.kz:443"},{"id":"billing","address":"billing.api.yandexcloud.kz:443"},{"id":"certificate-manager","address":"cpl.ycm.api.yandexcloud.kz:443"},{"id":"certificate-manager-data","address":"dpl.ycm.api.yandexcloud.kz:443"},{"id":"compute","address":"compute.api.yandexcloud.kz:443"},{"id":"container-registry","address":"container-registry.api.yandexcloud.kz:443"},{"id":"datatransfer","address":"datatransfer.api.yandexcloud.kz:443"},{"id":"dns","address":"dns.api.yandexcloud.kz:443"},{"id":"endpoint","address":"api.yandexcloud.kz:443"},{"id":"iam","address":"iam.api.yandexcloud.kz:443"},{"id":"k8s","address":"mks.api.yandexcloud.kz:443"},{"id":"kms","address":"cpl.kms.api.yandexcloud.kz:443"},{"id":"kms-crypto","address":"dpl.kms.api.yandexcloud.kz:443"},{"id":"load-balancer","address":"load-balancer.api.yandexcloud.kz:443"},{"id":"lockbox","address":"cpl.lockbox.api.yandexcloud.kz:443"},{"id":"lockbox-payload","address":"dpl.lockbox.api.yandexcloud.kz:443"},{"id":"log-ingestion","address":"ingester.logging.yandexcloud.kz:443"},{"id":"log-reading","address":"reader.logging.yandexcloud.kz:443"},{"id":"logging","address":"logging.api.yandexcloud.kz:443"},{"id":"managed-clickhouse","address":"mdb.api.yandexcloud.kz:443"},{"id":"managed-elasticsearch","address":"mdb.api.yandexcloud.kz:443"},{"id":"managed-greenplum","address":"mdb.api.yandexcloud.kz:443"},{"id":"managed-kafka","address":"mdb.api.yandexcloud.kz:443"},{"id":"managed-kubernetes","address":"mks.api.yandexcloud.kz:443"},{"id":"managed-mongodb","address":"mdb.api.yandexcloud.kz:443"},{"id":"managed-mysql","address":"mdb.api.yandexcloud.kz:443"},{"id":"managed-opensearch","address":"mdb.api.yandexcloud.kz:443"},{"id":"managed-postgresql","address":"mdb.api.yandexcloud.kz:443"},{"id":"managed-redis","address":"mdb.api.yandexcloud.kz:443"},{"id":"marketplace","address":"marketplace.api.yandexcloud.kz:443"},{"id":"mdb-clickhouse","address":"mdb.api.yandexcloud.kz:443"},{"id":"mdb-mongodb","address":"mdb.api.yandexcloud.kz:443"},{"id":"mdb-mysql","address":"mdb.api.yandexcloud.kz:443"},{"id":"mdb-postgresql","address":"mdb.api.yandexcloud.kz:443"},{"id":"mdb-redis","address":"mdb.api.yandexcloud.kz:443"},{"id":"operation","address":"operation.api.yandexcloud.kz:443"},{"id":"organization-manager","address":"organization-manager.api.yandexcloud.kz:443"},{"id":"organizationmanager","address":"organization-manager.api.yandexcloud.kz:443"},{"id":"resource-manager","address":"resource-manager.api.yandexcloud.kz:443"},{"id":"resourcemanager","address":"resource-manager.api.yandexcloud.kz:443"},{"id":"serialssh","address":"serialssh.yandexcloud.kz:9600"},{"id":"storage","address":"storage.yandexcloud.kz:443"},{"id":"storage-api","address":"storage.api.yandexcloud.kz:443"},{"id":"vpc","address":"vpc.api.yandexcloud.kz:443"},{"id":"ydb","address":"ydb.api.yandexcloud.kz:443"}]}}}
+18:36:59.925250	grpc	[core][Channel #4]Channel created
+18:36:59.925286	grpc	[core][Channel #4]original dial target is: "resource-manager.api.yandexcloud.kz:443"
+18:36:59.925345	grpc	[core][Channel #4]parsed dial target is: resolver.Target{URL:url.URL{Scheme:"resource-manager.api.yandexcloud.kz", Opaque:"443", User:(*url.Userinfo)(nil), Host:"", Path:"", RawPath:"", OmitHost:false, ForceQuery:false, RawQuery:"", Fragment:"", RawFragment:""}}
+18:36:59.925396	grpc	[core][Channel #4]fallback to scheme "passthrough"
+18:36:59.925540	grpc	[core][Channel #4]parsed dial target is: passthrough:///resource-manager.api.yandexcloud.kz:443
+18:36:59.925562	grpc	[core][Channel #4]Channel authority set to "resource-manager.api.yandexcloud.kz:443"
+18:36:59.925994	grpc	[core][Channel #4]Resolver state updated: {
+  "Addresses": [
+    {
+      "Addr": "resource-manager.api.yandexcloud.kz:443",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Metadata": null
+    }
+  ],
+  "Endpoints": [
+    {
+      "Addresses": [
+        {
+          "Addr": "resource-manager.api.yandexcloud.kz:443",
+          "ServerName": "",
+          "Attributes": null,
+          "BalancerAttributes": null,
+          "Metadata": null
+        }
+      ],
+      "Attributes": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+} (resolver returned new addresses)
+18:36:59.926095	grpc	[core][Channel #4]Channel switches to new LB policy "pick_first"
+18:36:59.926184	grpc	[core][pick-first-lb 0x14001c01a40] Received new config {
+  "shuffleAddressList": false
+}, resolver state {
+  "Addresses": [
+    {
+      "Addr": "resource-manager.api.yandexcloud.kz:443",
+      "ServerName": "",
+      "Attributes": null,
+      "BalancerAttributes": null,
+      "Metadata": null
+    }
+  ],
+  "Endpoints": [
+    {
+      "Addresses": [
+        {
+          "Addr": "resource-manager.api.yandexcloud.kz:443",
+          "ServerName": "",
+          "Attributes": null,
+          "BalancerAttributes": null,
+          "Metadata": null
+        }
+      ],
+      "Attributes": null
+    }
+  ],
+  "ServiceConfig": null,
+  "Attributes": null
+}
+18:36:59.926217	grpc	[core][Channel #4 SubChannel #5]Subchannel created
+18:36:59.926241	grpc	[core][Channel #4]Channel Connectivity change to CONNECTING
+18:36:59.926275	grpc	[core][Channel #4]Channel exiting idle mode
+18:36:59.926328	grpc	[core][Channel #4 SubChannel #5]Subchannel Connectivity change to CONNECTING
+18:36:59.926374	grpc	[core][Channel #4 SubChannel #5]Subchannel picks a new address "resource-manager.api.yandexcloud.kz:443" to connect
+18:36:59.926418	grpc	[core][pick-first-lb 0x14001c01a40] Received SubConn state update: 0x14001c01aa0, {ConnectivityState:CONNECTING ConnectionError:<nil>}
+18:36:59.926420	grpc	Dialing resource-manager.api.yandexcloud.kz:443 with timeout 19.9998655s
+18:37:00.117252	grpc	Dial resource-manager.api.yandexcloud.kz:443 successfully connected to: [2a07:aa40:2f::1e]:443
+18:37:00.252219	grpc	[core][Channel #4 SubChannel #5]Subchannel Connectivity change to READY
+18:37:00.252512	grpc	[core][pick-first-lb 0x14001c01a40] Received SubConn state update: 0x14001c01aa0, {ConnectivityState:READY ConnectionError:<nil>}
+18:37:00.252575	grpc	[core][Channel #4]Channel Connectivity change to READY
+18:37:00.252796	Request  CloudService/List	{"request": {"method":"/yandex.cloud.resourcemanager.v1.CloudService/List","header":{"idempotency-key":["7609e4a4-cacd-4311-9b85-2913e487266a"],"x-client-request-id":["cfa20644-56de-4517-94d4-23cd2ba2ae1d"],"x-client-trace-id":["bb1d4050-2cf3-4d26-bf5f-fb8b946c7bff"]},"payload":{"page_size":"1000"}}}
+18:37:00.253502	grpc	Getting IAM Token for /yandex.cloud.resourcemanager.v1.CloudService/List
+18:37:00.256008	grpc	No IAM token cached. Creating.
+18:37:00.256821	Failed to read init cache '/Users/depdiller/.config/yandex-cloud/.authmethod': open /Users/depdiller/.config/yandex-cloud/.authmethod: no such file or directory
+18:37:00.256888	Trying to read init cache from legacy path '/Users/depdiller/.config/yandex-cloud/credentials/.authmethod'
+18:37:00.256923	Failed to read init cache '/Users/depdiller/.config/yandex-cloud/credentials/.authmethod': open /Users/depdiller/.config/yandex-cloud/credentials/.authmethod: no such file or directory
+err> 
+err> You are going to be authenticated via federation-id 'yc.yandex-team.federation'.
+err> Your federation authentication web site will be opened.
+err> After your successful authentication, you will be redirected to cloud console'.
+err> 
+err> Press 'enter' to continue...18:37:01.648292	querying for federation-id token
+18:37:01.648424	https://kz.auth.yandex.cloud
+18:37:01.648859	opening browser, server address: 127.0.0.1:51585
+18:37:01.753333	waiting for code

@@ -1,0 +1,5 @@
+18:30:30.810648	Starting CLI	{"version": "0.136.0", "os": "darwin", "arch": "arm64", "current-time": "2025-01-13 18:30:30.810639 +0300 MSK"}
+18:30:30.810740	Loading config file	{"path": "/Users/depdiller/.config/yandex-cloud/config.yaml"}
+18:30:30.810831	Selected profile	{"profile": "kz"}
+18:30:30.810854	Updating values from flags
+18:30:40.107005	Command execution finished

@@ -1,0 +1,11 @@
+22:36:11.096190	Starting CLI	{"version": "0.142.0-0.dev+internal.6348508", "os": "darwin", "arch": "arm64", "current-time": "2025-01-29 22:36:11.096169 +0300 MSK"}
+22:36:11.096359	Loading config file	{"path": "/Users/depdiller/.config/yandex-cloud/config.yaml"}
+22:36:11.096660	Selected profile	{"profile": "kz"}
+22:36:11.096691	Updating values from flags
+err> ERROR: command name argument expected
+err> Usage:
+err>   yc organization-manager <group> [optional flags]
+err> 
+err> For detailed information on this command and its flags, run:
+err>   yc organization-manager --help
+err> 

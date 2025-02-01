@@ -1,0 +1,46 @@
+18:21:46.002067	Starting YCP	{"os": "darwin", "arch": "arm64", "version": "0.3.0-2024-11-20T09-54-09Z+965439add", "x-trace-id": "f19894a9-e955-4772-9d7b-faaec4bbf898", "current-time": "2025-01-13 18:21:46.002047 +0300 MSK"}
+Usage:
+  ycp compute image list
+
+Flags:
+      --raw 
+              Print raw response instead of elements list. 
+
+  -r, --request string 
+              Path to a request file. 
+
+  -e, --example 
+              Just print request example and exit. 
+
+              Usage example: 
+
+              
+                 ycp compute instance create -e > request.yaml 
+
+              
+                 vim request.yaml 
+
+              
+                 ycp compute instance create -r request.yaml 
+
+                  
+
+      --folder-id string 
+              Folder Id 
+
+      --page-size int 
+               
+
+      --page-token string 
+               
+
+      --filter string 
+               
+
+      --order-by string 
+              By which column the listing should be ordered and in which direction, 
+
+               format is "createdAt desc". "id asc" if omitted.
+
+Use "ycp help [command]" for more information about a command and global flags.
+18:21:46.104375	Command execution succeeded. Handling results.

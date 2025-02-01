@@ -1,0 +1,11 @@
+11:03:58.926626	Starting CLI	{"version": "0.142.0-0.dev+internal.6348508", "os": "darwin", "arch": "arm64", "current-time": "2025-01-14 11:03:58.926598 +0300 MSK"}
+11:03:58.926780	Loading config file	{"path": "/Users/depdiller/.config/yandex-cloud/config.yaml"}
+11:03:58.927161	Selected profile	{"profile": "kz"}
+11:03:58.927189	Updating values from flags
+err> ERROR: command name argument expected
+err> Usage:
+err>   yc <group|command> [optional flags]
+err> 
+err> For detailed information on this command and its flags, run:
+err>   yc --help
+err> 

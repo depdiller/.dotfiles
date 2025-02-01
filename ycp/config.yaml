@@ -1,0 +1,23 @@
+current-profile: prod
+profiles:
+  prod:
+    user: yc-fed
+    environment: prod
+  preprod:
+    user: yc-fed
+    environment: preprod
+  testing:
+    user: yc-fed
+    environment: testing
+  kz:
+    user: yc-fed
+    environment: kz
+  prod-sandbox:
+    user: sandbox-fed
+    environment: prod
+
+users:
+  yc-fed:
+    federation-id: yc.yandex-team.federation
+  sandbox-fed:
+    federation-id: yc.organization-manager.sandbox-federation

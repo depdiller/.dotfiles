@@ -1,0 +1,14 @@
+22:36:16.039767	Starting CLI	{"version": "0.142.0-0.dev+internal.6348508", "os": "darwin", "arch": "arm64", "current-time": "2025-01-29 22:36:16.039754 +0300 MSK"}
+22:36:16.039858	Loading config file	{"path": "/Users/depdiller/.config/yandex-cloud/config.yaml"}
+22:36:16.039962	Selected profile	{"profile": "kz"}
+22:36:16.039992	Updating values from flags
+err> ERROR: Unknown command 'list' for 'yc organization-manager'
+err> 
+err> Available commands for 'yc organization-manager':
+err>     organization|organizations
+err>     federation|federations
+err>     user|users
+err>     group|groups
+err>     oslogin|os-login
+err> 
+err> See 'yc organization-manager --help' for help and examples.
